@@ -2,18 +2,18 @@ package com.galosoft.androiddrinkshop.Model;
 
 public class CheckUserResponse {
 
-    private boolean exist;
+    private  boolean exists;
     private String error_msg;
 
     public CheckUserResponse() {
     }
 
-    public boolean isExist() {
-        return exist;
+    public boolean isExists() {
+        return exists;
     }
 
-    public void setExist(boolean exist) {
-        this.exist = exist;
+    public void setExists(boolean exists) {
+        this.exists = exists;
     }
 
     public String getError_msg() {
